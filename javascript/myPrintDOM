@@ -1,0 +1,13 @@
+/**
+ * This class contains the code for print the dom
+ * @author Landon Tall
+ * 3/14/2018
+ */
+
+
+$(document).ready(function() {
+  var indexItems = document.getElementsByTagName("*");
+  for(var i=0, max=indexItems.length; i < max; i++){
+  console.log(indexItems[i].tagName);
+  }
+});
